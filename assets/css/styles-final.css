@@ -64,7 +64,7 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
-  padding: 30px;
+  padding: 30px 30px 5px 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
@@ -205,12 +205,34 @@ p {
   margin-bottom: 0;
   font-weight: 500;
 }
+.main-wrapper .skill-section-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+
+
+
 .main-wrapper .time {
   position: absolute;
   right: 0;
   top: 0;
   color: #97AAC3;
 }
+.main-wrapper .location {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;
@@ -293,3 +315,61 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+.logo
+{
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding-left: 50px;  
+}
+.ailondon-logo
+{
+    background-image: url('../images/ai-london.png');
+}
+.rs2i-logo
+{
+    background-image: url('../images/rs2i.png');
+}
+.sncf-logo
+{
+    background-image: url('../images/sncf.png');
+}
+.status-logo
+{
+    background-image: url('../images/status.png');
+}
+.axa-logo
+{
+    background-image: url('../images/axa.png');
+}
+.lcl-logo
+{
+    background-image: url('../images/lcl.png');
+}
+.sonepar-logo
+{
+    background-image: url('../images/sonepar.jpg');
+    background-size: 80px 40px;
+}
+.total-logo
+{
+    background-image: url('../images/total.png');
+    background-size: 80px 40px;
+}
+.argus-de-la-presse-logo
+{
+    background-image: url('../images/argus-de-la-presse.jpg');
+    background-size: 80px 40px;
+}
+.la-poste-logo
+{
+    background-image: url('../images/la-poste.png');
+}
+
+.ref-td-logo {
+    width: 20%;
+    background-position:center 0px; 
+}
+.ref-td-text {
+    width: 40%;
+}
