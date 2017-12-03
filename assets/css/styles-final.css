@@ -41,6 +41,7 @@ a:focus {
 }
 p {
   line-height: 1.5;
+  text-align: justify;
 }
 .wrapper {
   background: #4B6A78;
@@ -326,6 +327,11 @@ p {
 {
     background-image: url('../images/ai-london.png');
 }
+.consensys-logo
+{
+    background-image: url('../images/consensys.png');
+}
+
 .rs2i-logo
 {
     background-image: url('../images/rs2i.png');
