@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Orbit - Responsive Resume/CV Template for Developers
  * Version: 1.0
  * Author: Xiaoying Riley
@@ -6,7 +6,7 @@
  * License: Creative Commons Attribution 3.0 License
  * Website: http://themes.3rdwavemedia.com/
 */
-/* styles.css */
+/* styles-6.css */
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
@@ -26,7 +26,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2d7788;
+  color: #2e4049;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -34,16 +34,17 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #1a454f;
+  color: #10171a;
 }
 a:focus {
   text-decoration: none;
 }
 p {
   line-height: 1.5;
+  text-align: justify;
 }
 .wrapper {
-  background: #42A8C0;
+  background: #4B6A78;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -52,10 +53,10 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: #4B6A78;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 270px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -64,7 +65,7 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
-  padding: 30px;
+  padding: 30px 30px 5px 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
@@ -161,7 +162,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2d7788;
+  color: #2e4049;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -180,7 +181,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2d7788;
+  background: #2e4049;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -205,12 +206,34 @@ p {
   margin-bottom: 0;
   font-weight: 500;
 }
+.main-wrapper .skill-section-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+
+
+
 .main-wrapper .time {
   position: absolute;
   right: 0;
   top: 0;
   color: #97AAC3;
 }
+.main-wrapper .location {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;
@@ -242,7 +265,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #7bc2d3;
+  background: #6c92a3;
 }
 .footer {
   padding: 30px;
@@ -280,12 +303,12 @@ p {
   .skillset .level-title {
     display: inline-block;
     float: left;
-    width: 30%;
+    width: 50%;
     margin-bottom: 0;
   }
   .skillset .level-bar {
     display: inline-block;
-    width: 70%;
+    width: 50%;
     float: left;
     position: relative;
     top: 1px;
@@ -293,3 +316,82 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+.logo
+{
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.ailondon-logo
+{
+    background-image: url('../images/ai-london.png');
+}
+.consensys-logo
+{
+    background-image: url('../images/consensys.png');
+}
+.ipfs-logo
+{
+    background-image: url('../images/ipfs.png');
+}
+.oss-logo
+{
+    background-image: url('../images/oss.png');
+}
+.ethereum-logo
+{
+    background-image: url('../images/ethereum.png');
+}
+.kauri-logo
+{
+    background-image: url('../images/kauri.png');
+}
+
+.rs2i-logo
+{
+    background-image: url('../images/rs2i.png');
+}
+.sncf-logo
+{
+    background-image: url('../images/sncf.png');
+}
+.status-logo
+{
+    background-image: url('../images/status.png');
+}
+.axa-logo
+{
+    background-image: url('../images/axa.png');
+}
+.lcl-logo
+{
+    background-image: url('../images/lcl.png');
+}
+.sonepar-logo
+{
+    background-image: url('../images/sonepar.jpg');
+    background-size: 80px 40px;
+}
+.total-logo
+{
+    background-image: url('../images/total.png');
+    background-size: 80px 40px;
+}
+.argus-de-la-presse-logo
+{
+    background-image: url('../images/argus-de-la-presse.jpg');
+    background-size: 80px 40px;
+}
+.la-poste-logo
+{
+    background-image: url('../images/la-poste.png');
+}
+
+.ref-td-logo {
+    width: 20%;
+    background-position:center 0px;
+}
+.ref-td-text {
+    width: 40%;
+}

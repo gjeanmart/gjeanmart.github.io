@@ -1,3 +1,3 @@
 # Personal website 
 
-https://gjeanmart.github.io/ 
+https://greg.jeanmart.me
